@@ -815,7 +815,7 @@ statesButton.onclick = function(e) {
 	
 	// ?core query
 	if (queries.core) {
-		if (!window.navigator.userAgent.toLowerCase().includes("chrom")) alert("Best performance on Chrome!");
+		if (!window.navigator.userAgent.toLowerCase().includes("chrom")) alert("The emulator will have better performance if using Chrome or a Chrome-based browser (eg Chromium, Microsoft Edge, Opera)");
 		
 		// show hover menu
 		hoverMenu.style.display = "block";
